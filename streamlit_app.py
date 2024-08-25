@@ -123,7 +123,8 @@ st.line_chart(
 first_year = gdp_df[gdp_df['Year'] == from_year]
 last_year = gdp_df[gdp_df['Year'] == to_year]
 
-st.header(f'GDP in {to_year}', divider='gray')
+st.header(f'GDP in {from_year}', divider='gray')
+st.header(f'GDP in {to_year}', divider='red')
 
 ''
 
